@@ -1,5 +1,7 @@
 import axios from "axios";
+
 const base_url = "https://youtube-v31.p.rapidapi.com";
+
 export const options = {
   params: {
     maxResults: "51",
@@ -18,4 +20,5 @@ const fetchApi = async (url) => {
     console.log("error in fetch api");
   }
 };
+
 export default fetchApi;
